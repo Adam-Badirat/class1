@@ -2,8 +2,8 @@ const express = require('express')
 const app = express();
 const mongoose = require("mongoose")
 require("dotenv").config();
-// const port = process.env.PORT;
-const port = process.env.PORT || 10000 ;
+const port = process.env.PORT;
+// const port = process.env.PORT || 10000 ;
 
 
 const student = [
@@ -64,7 +64,7 @@ app.post("/dashboard", (req, res) => {
 //     console.log(req.body)
 // })
 
-app.listen(port,"0.0.0.0", ()=>{
+app.listen(port, ()=>{
     console.log("started")
     console.log("working");
 })
