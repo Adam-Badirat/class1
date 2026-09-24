@@ -65,8 +65,8 @@ app.post("/dashboard", (req, res) => {
 // })
 
 app.listen(port,"0.0.0.0", ()=>{
-    console.log("lo")
-    console.log(123);
+    console.log("started")
+    console.log("working");
 })
 const DBURI = process.env.DB_URI
 mongoose.connect(DBURI).then(()=>{
