@@ -64,7 +64,7 @@ app.post("/dashboard", (req, res) => {
 //     console.log(req.body)
 // })
 
-app.listen(port, ()=>{
+app.listen(port,"0.0.0.0", ()=>{
     console.log("lo")
     console.log(123);
 })
