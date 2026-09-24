@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose")
 require("dotenv").config();
 // const port = process.env.PORT;
-const port = process.env.PORT || 2120;
+const port = process.env.PORT || 10000 ;
 
 
 const student = [
